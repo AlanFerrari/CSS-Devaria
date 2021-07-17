@@ -1,0 +1,22 @@
+/*Estilos gerais*/
+
+html{
+    height: 100%;
+}
+body{
+    background-color: #1C0C3F;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+.title{
+    padding: 0 20px;
+    font-size: 1.60em;
+    text-transform: uppercase;
+}
+h1.title{
+    margin: 40px auto 20px;
+}
+.text-justify{
+    text-align: justify;
+}
