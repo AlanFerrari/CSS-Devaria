@@ -5,29 +5,29 @@ header .link-logo{
     padding: 20px 25px;
     border-bottom: 1px solid #25cbd3;
 }
-header nav ul{
+header nav ul {
     text-align: center;
     padding: 0;
 }
-header nav ul li{
+header nav ul li {
     display: inline-block;
 }
-header nav ul li:not(:last-child){
+header nav ul li:not(:last-child) {
     margin-right: 20px;
 }
-.menu li a{
+.menu li a {
     color: #fff;
     text-decoration: none;
 }
-.menu li a:hover{
+.menu li a:hover {
     color: #3bd42d;
     text-decoration: underline;
 }
 @media screen and (min-width: 992px) {
-    header{
+    header {
         position: relative;
     }
-    .menu{
+    .menu {
         position: absolute;
         right: 4%;
         top: 18%;

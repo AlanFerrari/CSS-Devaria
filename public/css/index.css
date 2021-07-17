@@ -1,30 +1,28 @@
 /*Estilos do Index*/
 
-main{
-    text-align: center;
-}
-.cover-container figure img{
+.cover-container figure img {
     width: 100%;
 }
-main h3.title{
+main h3.title {
     font-size: 1em;
 }
-main section abbr{
+main section abbr {
     color: #25cbd3;
 }
 @media screen and (min-width: 992px) {
-    .cover-container{
+    .cover-container {
         width: 40%;
     }
     .cover-container,
-    .section-video{
+    .section-video {
         display: inline-block;
     }
-    .section-azure blockquote{
+    .section-azure blockquote.text-justify {
         width: 70%;
         margin: auto;
+        padding: 8px;
     }
-    section div iframe{
+    section div iframe {
         height: 220px;
     }
 }
