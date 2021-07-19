@@ -31,6 +31,5 @@ header nav ul li:not(:last-child) {
         position: absolute;
         right: 4%;
         top: 18%;
-        font-size: 1.2em;
     }
 }
