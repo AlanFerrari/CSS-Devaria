@@ -1,0 +1,57 @@
+/* Estilo da página DevStars */
+
+    main h2.sub-title {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    main h3.title {
+        font-size: 1.2em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    table, 
+    th, 
+    td {
+        border: 1px solid #25cbd3;
+        padding: 5px;
+        border-collapse: collapse;        
+    }
+    table{
+        font-size: 1em;
+        width: 90%;
+        margin: auto;
+    }
+    th{
+        background-color: #4431B2;
+    }
+    main section div iframe {
+        width: 90%;
+        height: 300px;
+        line-height: 0px;
+        border: 1px solid #5e49ff;
+    }
+    div{
+        text-align: center;
+    }
+    @media screen and (min-width: 992px) {
+        table{
+            font-size: 1.2em;
+        }
+        main h3.title{
+            font-size: 1.5em;
+        }
+        main h2.sub-title{
+            font-size: 1.75em;
+        }
+        main h1.title{
+            font-size: 2em;
+        }
+        th,
+        td {
+            height: 40px;
+        }
+        main section div iframe,
+        table {
+            width: 75%;
+        }
+    }
